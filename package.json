@@ -1,0 +1,38 @@
+{
+  "name": "@sudoo/huge-integer",
+  "version": "1.0.0",
+  "description": "Huge Integer for JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-Huge-Integer.git"
+  },
+  "keywords": [
+    "Huge-Integer"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-Huge-Integer/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-Huge-Integer#readme",
+  "devDependencies": {
+    "@sudoo/build-utils": "^1.0.0",
+    "@sudoo/license": "^1.1.0",
+    "@sudoo/triforce": "^2.9.29"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
